@@ -1,3 +1,4 @@
+/* 1～100の総和を求める */
 #include <stdio.h>
 
 int main(void)
