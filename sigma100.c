@@ -3,13 +3,10 @@
 
 int main(void)
 {
-  puts("Hello World!!");
   
   int ans = 0;
-  for(int i=1; i<=100; i++)
-  {
-    ans += i;
-  }
+  int n=100;
+  ans = n*(n+1)/2;
   
   printf("%d\n", ans);
   
